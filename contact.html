@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Book a Service | Care Air</title>
+  <meta name="description" content="Book AC maintenance, repair, installation or spare parts from Care Air in El Nozha El Gdida, Cairo. Call, message on WhatsApp or send your details.">
+  <meta name="theme-color" content="#06080d">
+  <meta property="og:title" content="Contact &amp; Book a Service | Care Air">
+  <meta property="og:description" content="Book AC maintenance, repair, installation or spare parts from Care Air in El Nozha El Gdida, Cairo. Call, message on WhatsApp or send your details.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="care-air-logo.jpg">
+  <link rel="icon" type="image/png" href="care-logo-removebg-preview.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Unbounded:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="styles-index.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HVACBusiness",
+  "name": "Care Air",
+  "description": "Air conditioning maintenance, repair, installation and spare parts in El Nozha El Gdida, Cairo.",
+  "telephone": "+201200220376",
+  "email": "info.careair@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "14 Saad Abd Al Wars",
+    "addressLocality": "El Nozha El Gdida",
+    "addressRegion": "Cairo",
+    "addressCountry": "EG"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 30.1195327,
+    "longitude": 31.3673633
+  }
+}
+  </script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="wrap nav-row">
+      <a class="brand" href="index.html" aria-label="Care Air, home">
+        <img src="care-logo-removebg-preview.png" alt="" width="44" height="44">
+        <span>Care Air</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <a class="btn btn-heat" href="contact.html#book">Book a service</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="wrap">
+        <h1 id="page-title">Book a service</h1>
+        <p class="lead">Tell us what you need and send it to us on WhatsApp or by email. We'll take it from there.</p>
+      </div>
+    </section>
+
+    <section class="contact-page">
+      <div class="wrap contact-grid">
+        <div class="form-card" id="book">
+          <h2>Your details</h2>
+          <p class="form-intro">Fill this in and we'll prepare your message. You choose where to send it.</p>
+
+          <form id="book-form" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="customer">Your name</label>
+                <input id="customer" name="customer" type="text" autocomplete="name" aria-describedby="customer-error" required>
+                <p class="field-error" id="customer-error"></p>
+              </div>
+              <div class="field">
+                <label for="phone">Phone number</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="01XXXXXXXXX" aria-describedby="phone-error" required>
+                <p class="field-error" id="phone-error"></p>
+              </div>
+            </div>
+
+            <fieldset class="choice">
+              <legend>What do you need?</legend>
+              <div class="pills">
+                <label class="pill"><input type="radio" name="service" value="AC maintenance" checked><span>AC maintenance</span></label>
+                <label class="pill"><input type="radio" name="service" value="AC repair"><span>AC repair</span></label>
+                <label class="pill"><input type="radio" name="service" value="AC installation"><span>AC installation</span></label>
+                <label class="pill"><input type="radio" name="service" value="Spare parts"><span>Spare parts</span></label>
+                <label class="pill"><input type="radio" name="service" value="Not sure yet"><span>Not sure yet</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="choice">
+              <legend>What kind of system is it?</legend>
+              <div class="pills">
+                <label class="pill"><input type="radio" name="system" value="Home split unit" checked><span>Home split unit</span></label>
+                <label class="pill"><input type="radio" name="system" value="Central or ducted system"><span>Central or ducted</span></label>
+                <label class="pill"><input type="radio" name="system" value="Commercial or chiller"><span>Commercial or chiller</span></label>
+                <label class="pill"><input type="radio" name="system" value="Not sure"><span>Not sure</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="choice">
+              <legend>When suits you?</legend>
+              <div class="pills">
+                <label class="pill"><input type="radio" name="when" value="As soon as possible" checked><span>As soon as possible</span></label>
+                <label class="pill"><input type="radio" name="when" value="This week"><span>This week</span></label>
+                <label class="pill"><input type="radio" name="when" value="Flexible"><span>I'm flexible</span></label>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label for="area">Area or address <span class="optional">(optional)</span></label>
+              <input id="area" name="area" type="text" autocomplete="street-address" placeholder="For example: El Nozha El Gdida">
+            </div>
+
+            <div class="field">
+              <label for="details">What's the problem or request? <span class="optional">(optional)</span></label>
+              <textarea id="details" name="details" placeholder="For example: the unit runs but doesn't cool, or I need a compressor for a Carrier unit."></textarea>
+            </div>
+
+            <div class="preview">
+              <div class="preview-head">
+                <span id="preview-label">Your message</span>
+                <button class="link-btn" type="button" id="copy-msg">Copy</button>
+              </div>
+              <pre id="preview" aria-labelledby="preview-label" aria-live="polite"></pre>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-heat" type="submit">Send on WhatsApp</button>
+              <button class="btn btn-ink" type="button" id="send-email">Send by email</button>
+            </div>
+
+            <div class="sent" id="sent" tabindex="-1" role="status" hidden>
+              <h3>Your message is ready</h3>
+              <p id="sent-text"></p>
+              <p>Tip: once the chat is open, you can also send a photo of the unit's label. It helps us prepare for repairs and parts.</p>
+            </div>
+
+            <p class="form-note">
+              Sending opens WhatsApp or your email app with your details already written. Nothing is stored on this site.
+            </p>
+          </form>
+        </div>
+
+        <div class="side-card">
+          <h2 class="side-title">Or reach us directly</h2>
+          <ul class="contact-list">
+            <li><span class="cl-label">Phone</span><a href="tel:+201200220376">01200220376</a></li>
+            <li><span class="cl-label">WhatsApp</span><a target="_blank" rel="noopener" href="https://wa.me/201200220376">Message us</a></li>
+            <li><span class="cl-label">Email</span><a href="mailto:info.careair@gmail.com">info.careair@gmail.com</a></li>
+            <li><span class="cl-label">Address</span><a target="_blank" rel="noopener" href="https://www.google.com/maps/place/14+Saed+Abd+Al+Wars,+Huckstep,+El+Nozha,+Cairo+Governorate+4473123/@30.1196536,31.3674083,91m/data=!3m1!1e3!4m6!3m5!1s0x14581663149b12a5:0x7c7eea3515093f84!8m2!3d30.1195327!4d31.3673633!16s%2Fg%2F11c153tdt1">14 Saad Abd Al Wars,<br>El Nozha El Gdida, Cairo</a></li>
+          </ul>
+          <div class="map">
+            <iframe title="Map showing Care Air at 14 Saad Abd Al Wars, El Nozha El Gdida, Cairo" src="https://www.google.com/maps?q=30.1195327,31.3673633&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html" aria-label="Care Air, home">
+          <img src="care-logo-removebg-preview.png" alt="" width="44" height="44">
+          <span>Care Air</span>
+        </a>
+        <p>Air conditioning maintenance, repair, installation and spare parts for homes and businesses in Cairo.</p>
+      </div>
+
+      <nav class="foot-col" aria-label="Pages">
+        <h2 class="foot-title">Pages</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="foot-col">
+        <h2 class="foot-title">Get in touch</h2>
+        <ul>
+          <li><a href="tel:+201200220376">01200220376</a></li>
+          <li><a target="_blank" rel="noopener" href="https://wa.me/201200220376">WhatsApp</a></li>
+          <li><a href="mailto:info.careair@gmail.com">info.careair@gmail.com</a></li>
+          <li><a target="_blank" rel="noopener" href="https://www.google.com/maps/place/14+Saed+Abd+Al+Wars,+Huckstep,+El+Nozha,+Cairo+Governorate+4473123/@30.1196536,31.3674083,91m/data=!3m1!1e3!4m6!3m5!1s0x14581663149b12a5:0x7c7eea3515093f84!8m2!3d30.1195327!4d31.3673633!16s%2Fg%2F11c153tdt1">14 Saad Abd Al Wars,<br>El Nozha El Gdida, Cairo</a></li>
+        </ul>
+
+        <!--
+          Social links: add your real profile URLs and uncomment.
+          <div class="social-links">
+            <a href="YOUR_FACEBOOK_URL" target="_blank" rel="noopener" aria-label="Care Air on Facebook"><img src="facebook.png" alt="" width="28" height="28"></a>
+            <a href="YOUR_INSTAGRAM_URL" target="_blank" rel="noopener" aria-label="Care Air on Instagram"><img src="instagram.png" alt="" width="28" height="28"></a>
+            <a href="YOUR_TIKTOK_URL" target="_blank" rel="noopener" aria-label="Care Air on TikTok"><img src="tiktok.png" alt="" width="28" height="28"></a>
+          </div>
+        -->
+      </div>
+    </div>
+
+    <div class="wrap foot-bottom">
+      <p>&copy; <span id="year">2026</span> Care Air. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="float-wa" target="_blank" rel="noopener" href="https://wa.me/201200220376"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg><span>Chat on WhatsApp</span></a>
+
+  <div class="quick-bar" role="navigation" aria-label="Quick contact">
+    <a href="tel:+201200220376"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg><span>Call</span></a>
+    <a target="_blank" rel="noopener" href="https://wa.me/201200220376"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg><span>WhatsApp</span></a>
+    <a href="contact.html#book"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 16H5V9h14v11z"/></svg><span>Book</span></a>
+  </div>
+</body>
+</html>
